@@ -1,0 +1,25 @@
+﻿# Dependencies
+vendor/
+node_modules/
+
+# Environment
+.env
+.env.*.local
+
+# Laravel
+bootstrap/cache/*.php
+storage/*.key
+storage/framework/cache/*
+storage/framework/sessions/*
+storage/framework/views/*
+storage/logs/*.log
+.phpunit.result.cache
+
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+build/
+android/.gradle/
+ios/Flutter/ephemeral/
+*.log
